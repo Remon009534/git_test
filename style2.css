@@ -1,50 +1,60 @@
-body
+*
 {
-    background-color: #2C3A47;
-    font-family: "Roboto", sans-serif;
-    font-weight: 400;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
-fieldset
+header
 {
-    color: white;
-    background-color: #57606f;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    height: 400px;
-    width: 300px;
-    border: none;
-    display: grid;
-    column-gap: 10px;
-    row-gap: 5px;
-    /* box-shadow: 2px 2px #57606f; */
-    border-radius: 5px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, 0.726);
 }
-#item label
+.link
 {
-    display: grid;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 30px;
 }
-fieldset #item input
+.menu ul
 {
-    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 80px;
 }
-fieldset #item
+ul li
 {
-    display: grid;
+    list-style: none;
 }
-button
+ul li a
 {
-    color: white;
-    background-color: #786fa6;
-    width: 110px;
-    height: 30px;
-    border-radius: 5px;
-    border: none;
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
     font-family: arial, sans-serif;
 }
-button:hover
+ul li a:hover
 {
-    background-color: #574b90;
-    cursor: pointer;
+    text-decoration: underline;
+    transition: 1.2s;
+}
+.button #btn
+{
+    height: 30px;
+    width: 90px;
+    border-color: black;
+    color: black;
+    font: bold;
+    border-radius: 5px;
+    background-color: white;
+}
+.button #btn:hover
+{
+    background-color: black;
+    color: whitesmoke;
+    border: none;
 }
