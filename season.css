@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.main
+{
+    height: 500px;
+    /* background-color: #1e272e; */
+    background-image: url("../halie-west-25xggax4bSA-unsplash\ \(1\).jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #0be881;
+    font-family: "Roboto", sans-serif;
+    font-weight: 900;
+    font-style: normal;
+}
+.main header
+{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+ul
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    column-gap: 30px;
+}
+li
+{
+    list-style: none;
+    font-size: 18px;
+    font: bold;
+}
+a
+{
+    text-decoration: none;
+    color: #05c46b;
+}
+a:hover
+{
+    /* color: #0be881; */
+    color: white;
+    transition: all 0.5s ease-in;
+}
+#button #btn1
+{
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    background: none;
+    color: #0be881;
+    border: none;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#button #btn1:hover
+{
+    background-color: #0be881;
+    color: whitesmoke;
+    border-radius: 10px;
+    border-color: whitesmoke;
+    transition: all 0.5s ease-in;
+}
+#button #btn2
+{
+    height: 30px;
+    width: 100px;
+    font-size: 15px;
+    background: transparent;
+    border: solid;
+    border-color: #0be881;
+    color: #0be881;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+#button #btn2:hover
+{
+    background-color: #0be881;
+    border-radius: 10px;
+    color: whitesmoke;
+    transition: all 0.5s ease-in;
+}
+.main-text
+{
+    padding: 100px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    font-family: "Pacifico", cursive;
+    font-weight: 400;
+    font-style: normal
+}
+.main-text #btn3
+{
+    width: 100px;
+    height: 40px;
+    border: solid;
+    border-color: #05c46b;
+    background: transparent;
+    color: #05c46b;
+}
+.main-text #btn3:hover
+{
+    background-color: #05c46b;
+    color: white;
+    border-radius: 15px;
+    transition: all 0.5s ease-in;
+}
+.main-text #button2
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
