@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    box-sizing: border-box;
+}
+.main 
+{
+   display: flex;
+   flex-direction: column;
+}
+header
+{
+    color: white;
+    align-items: center;
+    display: flex;
+    padding: 0 16px;
+    font-size: 32px;
+    font-weight: 900;
+    height: 72px;
+    background-color: darkmagenta;
+}
+.main-2
+{
+    height: 600px;
+    display: flex;
+    flex: 1;
+}
+.main-2 .link
+{
+    width: 300px;
+    flex-shrink: 0;
+    padding: 16px;
+    background-color: royalblue;
+    box-sizing: border-box;
+}
+li
+{
+    margin-bottom: 16px;
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-family: "Robot", sans-serif;
+    font-weight: 900;
+}
+a:hover
+{
+    color: darkcyan;
+    transition: all 0.5s ease-in;
+}
+.container
+{
+    padding: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    /* flex-wrap: wrap; */
+    gap: 32px;
+}
+.card
+{
+    padding: 16px;
+    width: 300px;
+    border: 1px solid #eee;
+    /* box-shadow: 2px 4px 16px rgba(0, 0, 0, .06); */
+    box-shadow: 10px 0px yellow inset;
+    border-radius: 4px;
+}
+.card:hover
+{
+    background-color: darkslategrey;
+    color: white;
+    padding: 20px;
+    transition: all 0.5s ease-in;
+}
