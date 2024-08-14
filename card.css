@@ -1,0 +1,250 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    display: flex;
+    min-height: 100vh;
+}
+.link
+{
+    padding: 10px;
+    background-color: #06b6d4;
+    color: white;
+    width: 20%;
+}
+.link h1 
+{
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+.option
+{
+    padding: 20px;
+}
+.setting
+{
+    padding: 20px;
+}
+ul
+{
+    display: grid;
+    row-gap: 10px;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    color: white;
+    /* color: whitesmoke; */
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+a:hover
+{
+    color: #e2e8f0;
+    transition: all 0.2s ease-in;
+}
+header
+{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    display: grid;
+    row-gap: 10px;
+}
+.dashboard
+{
+    width: 90%;
+}
+.dashboard header .search
+{
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#search
+{
+    width: 450px;
+    height: 25px;
+    border-radius: 30px;
+    border: none;
+    background-color: #cbd5e1;
+}
+#searchbar
+{
+    height: 30;
+}
+.profile
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    column-gap: 30px;
+}
+.profile h4
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+#profile
+{
+    border-radius: 50%;
+    background-color: yellow;
+    height: 40px;
+    width: 40px;
+}
+.ahh
+{
+    display: flex;
+    column-gap: 20px;
+    align-items: center;
+}
+.account
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#profile2
+{
+    border-radius: 50%;
+    background-color: yellow;
+    height: 50px;
+    width: 50px;
+}
+svg
+{
+    width: 40px;
+    height: 20px;
+}
+#text h3
+{
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+#text p
+{
+    font-size: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+.buttons
+{
+    display: flex;
+    column-gap: 30px;
+}
+#button
+{
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #0ea5e9;
+    color: whitesmoke;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    border: none;
+}
+#button:hover
+{
+    background-color: #0284c7;
+}
+.card 
+{
+    display: grid;
+    row-gap: 20px;
+}
+.main-card
+{
+    background-color: #d1d5db;
+    display: flex;
+    column-gap: 10px;
+}
+.card h2
+{
+    padding: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+.container
+{
+    padding: 4px;
+    display: grid;
+    grid-template-columns: 400px 400px;
+    /* column-gap: 10px; */
+    row-gap: 30px;
+}
+.ann-trend
+{
+    padding: 10px;
+    display: grid;
+    row-gap: 20px;
+}
+.announcment
+{
+    display: grid;
+    row-gap: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+.trending
+{
+    display: grid;
+    row-gap: 10px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+}
+#announcment
+{
+    font-size: 12px;
+    display: grid;
+    row-gap: 20px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: white;
+}
+#tegan, #remon, #mahadi, #maruf
+{
+    display: flex;
+    column-gap: 10px;
+}
+#hmm h3
+{
+    color: black;
+}
+#hmm
+{
+    color: lightgray;
+}
+#trending
+{
+    display: grid;
+    row-gap: 20px;
+    padding: 10px;
+    width: 200px;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    background-color: white;
+}
+#card
+{
+    font-family: "Roboto", sans-serif;
+    padding: 16px;
+    width: 300px;
+    border: 1px solid #eee;
+    background-color: white;
+    box-shadow: 10px 0px yellow inset;
+    /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19) yellow inset; */
+    border-radius: 4px;
+}
