@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./asset/style2.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <section id="main" data-tab-content>
+        <header>
+            <div class="logo">
+                <h1>TodoList</h1>
+            </div>
+            <div class="link">
+                <ul>
+                    <li data-tab-target="#main"><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Product</a></li>
+                </ul>
+            </div>
+            <div class="button">
+                <button type="button" id="btn">Sign up</button>
+            </div>
+        </header>
+        <div class="center">
+            <div class="quote">
+                <h1>A Simple todo list</h1>
+                <h1>To manage your workflow.</h1>
+            </div>
+            <div class="para">
+                <p>Simplify life for both you and your team. The worlds #1 task manager and to-do list app.</p>
+            </div>
+            <div class="button2">
+                <button data-tab-target="#todo" type="button" id="btn2">Start for free</button>
+            </div>
+        </div>
+    </section>
+    <section id="todo" data-tab-content class="active">
+        <div class="jojo">
+            <div class="option">
+                <h1>TodoList</h1>
+    
+                <div class="link2">
+                    <ul>
+                        <li data-tab-target="#main"><a href="#">Home</a></li>
+                        <li><a href="#">Services</a></li>
+                        <li><a href="#">List</a></li>
+                        <li><a href="#">Project</a></li>
+                    </ul>
+                </div>
+                <div class="setting">
+                    <ul>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Support</a></li>
+                        <li><a href="#">Privacy</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="todo">
+                <div class="task">
+                    <button id="btn3">+</button><h4>Add task</h4>
+                    <dialog>
+                        <form method="dialog">
+                            <div class="mom">
+                                <label for="name">Name:- </label>
+                                <input type="text" id="name" name="name" required>
+                            </div>
+                            <div class="button3">
+                                <button type="button" id="btn4">Add</button>
+                                <button id="btn5">Close</button>
+                            </div>
+                        </form>
+                    </dialog>
+                </div>
+                <div class="demo">
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="./index.js"></script>
+    <!-- <script src="./index2.js" ></script> -->
+</body>
+</html>
