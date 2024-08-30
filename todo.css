@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header
+{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.center
+{
+    padding: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 20px;
+}
+.quote h1
+{
+    font-size: 50px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.para p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: grey;
+}
+::selection
+{
+    color: white;
+    background-color: lightblue;
+}
+.logo h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.link ul
+{
+    display: flex;
+    column-gap: 20px;
+}
+li
+{
+    list-style: none;
+}
+a
+{
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    color: black;
+}
+#btn
+{
+    height: 40px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #0097e6;
+    border: none;
+    /* color: blue;
+    border: 2px solid blue; */
+    background: transparent;
+}
+#btn:hover
+{
+    background-color: rgba(0, 0, 0, 0.13);
+    transition: all 0.2s ease-in;
+}
+#btn2
+{
+    height: 40px;
+    width: 120px;
+    border-radius: 10px;
+    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    background-color: #00a8ff;
+    color: whitesmoke;
+    box-shadow: 2px 2px 10px black;
+}
+#btn2:hover
+{
+    background-color: #0097e6;
+    box-shadow: 2px 2px 5px black;
+    transition: all 0.2s ease-in;
+}
+[data-tab-content]
+{
+    display: none;
+}
+.active[data-tab-content]
+{
+    display: block;
+}
+.jojo
+{
+    display: flex;
+    min-height: 100vh;
+}
+#todo h1
+{
+    font-size: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+.option
+{
+    padding: 50px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    background-color: #0097e6;
+}
+.link2 a
+{
+    color: white;
+    font-size: 20px;
+}
+.setting a
+{
+    color: white;
+    font-size: 20px;
+}
+.todo
+{
+    width: 80%;
+}
+.todo .task
+{
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 10px;
+}
+.task h4
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+#btn3
+{
+    background: transparent;
+    color: #00a8ff;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    border: none;
+}
+dialog
+{
+    inset: 0.5rem;
+    margin: auto;
+    border: none;
+    width: 300px;
+    box-shadow: 2px 2px 10px black;
+}
+form
+{
+    display: grid;
+    row-gap: 10px;
+}
+.demo
+{
+    text-align: center;
+    border-radius: 20px;
+    box-shadow: 2px 2px 10px black;
+}
+.demo h2
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+}
+.demo button
+{
+    height: 40px;
+    width: 100px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    border: none;
+    background-color: #00a8ff;
+    color: white;
+}
+.demo button:hover
+{
+    background-color: #0097e6;
+    transition: all 0.2s ease-in;
+}
+.demo div
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 20px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    row-gap: 10px;
+}
