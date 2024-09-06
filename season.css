@@ -1,124 +1,179 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *
 {
-    padding: 0;
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
 .main
 {
+    background-color: #0B1E26;
     height: 500px;
-    /* background-color: #1e272e; */
-    background-image: url("../halie-west-25xggax4bSA-unsplash\ \(1\).jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    color: #0be881;
-    font-family: "Roboto", sans-serif;
-    font-weight: 900;
-    font-style: normal;
 }
-.main header
+header
 {
     padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-ul
+.center
+{
+    padding: 80px;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    row-gap: 20px;
+}
+.center h1
+{
+    font-family: 'Pacifico', cursive;
+    font-size: 50px;
+    font-weight: 600;
+    color: #419310;
+}
+.center p
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #1C621B;
+    font-size: 15px;
+}
+.button2 #btn
+{
+    height: 40px;
+    width: 120px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: #419310;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+}
+.button2 #btn:hover
+{
+    background-color: #1C621B;
+    transition: all 0.2s ease-in;
+}
+.logo h1
+{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    color: white;
+}
+.logo span
+{
+    color: #419310;
+}
+.link ul
 {
     display: flex;
-    align-items: center;
-    justify-content: space-between;
-    column-gap: 30px;
+    column-gap: 40px;
 }
 li
 {
     list-style: none;
-    font-size: 18px;
-    font: bold;
 }
 a
 {
     text-decoration: none;
-    color: #05c46b;
+    color: #A5EC60;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
 }
 a:hover
 {
-    /* color: #0be881; */
-    color: white;
-    transition: all 0.5s ease-in;
+    color: #419310;
 }
-#button #btn1
+.button #btn
 {
-    height: 30px;
+    height: 35px;
     width: 100px;
-    font-size: 15px;
-    background: none;
-    color: #0be881;
-    border: none;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
-}
-#button #btn1:hover
-{
-    background-color: #0be881;
-    color: whitesmoke;
     border-radius: 10px;
-    border-color: whitesmoke;
-    transition: all 0.5s ease-in;
-}
-#button #btn2
-{
-    height: 30px;
-    width: 100px;
-    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
     background: transparent;
-    border: solid;
-    border-color: #0be881;
-    color: #0be881;
-    font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-style: normal;
+    border: 2px solid #419310;
+    color: #419310;
 }
-#button #btn2:hover
+.button #btn:hover
 {
-    background-color: #0be881;
-    border-radius: 10px;
-    color: whitesmoke;
-    transition: all 0.5s ease-in;
+    border-radius: 20px;
+    background-color: #419310;
+    color: white;
+    transition: all 0.2s ease-in;
 }
-.main-text
+.choice
 {
-    padding: 100px;
+    background-color: darkslategray;
+}
+.choice h1
+{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     font-size: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    color: #419310;
+}
+.image1
+{
+    background-image: url('../wolf-8089783_640.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500px;
+}
+.para
+{
+    width: 50%;
+    /* height: 500px; */
     display: grid;
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
 }
-.main-text #btn3
+#para p
 {
-    width: 100px;
-    height: 40px;
-    border: solid;
-    border-color: #05c46b;
-    background: transparent;
-    color: #05c46b;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+    color: #419310;
 }
-.main-text #btn3:hover
+.image2
 {
-    background-color: #05c46b;
-    color: white;
+    background-image: url('../wild_animal_picture_relaxing_tiger_6934816.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 450px;
+    height: 400px;
     border-radius: 15px;
-    transition: all 0.5s ease-in;
+    box-shadow: 2px 2px 10px black;
+    display: grid;
+    align-items: center;
+    justify-content: center;
 }
-.main-text #button2
+.container
 {
     display: flex;
     align-items: center;
-    justify-content: center;
+}
+.button3 #btn
+{
+    height: 40px;
+    width: 120px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600;
+    color: #419310;
+    border: 2px solid #419310;
+    background: transparent;
+    border-radius: 12px;
+}
+.button3 #btn:hover
+{
+    color: whitesmoke;
+    background-color: #419310;
+    transition: all 0.2s ease-in;
 }
