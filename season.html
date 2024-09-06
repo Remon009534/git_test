@@ -10,31 +10,57 @@
     <title>Document</title>
 </head>
 <body>
-    <div class="main">
+    <section class="main">
         <header>
-            <div id="logo">
-                <h1>Seasons</h1>
+            <div class="logo">
+                <h1><span>Wilder</span>Wild</h1>
             </div>
-            <div id="link">
+            <div class="link">
                 <ul>
                     <li><a href="#">Home</a></li>
-                    <li><a href="#">seasons</a></li>
                     <li><a href="#">About</a></li>
-                    <li><a href="#">Charity</a></li>
+                    <li><a href="#">Animals</a></li>
+                    <li><a href="#">Project</a></li>
                 </ul>
             </div>
-            <div id="button">
-                <button id="btn1">Sign up</button>
-                <button id="btn2">Theme</button>
+            <div class="button">
+                <button id="btn">Contact</button>
             </div>
         </header>
-        <div class="main-text">
-            <h1>Welcome to Seasons</h1>
-            <div id="button2">
-                <button id="btn3">Learn more</button>
+        <div class="center">
+            <h1>Welcome to WilderWild</h1>
+            <p>It is a website, where you can learn about animals.</p>
+            <div class="button2">
+                <button id="btn">Learn more</button>
             </div>
         </div>
-    </div>
+    </section>
+    <section class="choice">
+        <div class="container">
+            <div class="image1"></div>
+            <div class="para">
+                <div id="para">
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, harum qui. Fugiat facilis nulla necessitatibus, debitis expedita consequuntur magni! Dolores alias accusantium ad natus voluptas aliquam, dignissimos dolore vel sint!
+                    </p>
+                </div>
+                <div class="button3">
+                    <button id="btn">Click to search</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="animal">
+        <div class="form">
+            <input type="text" id="name" name="name">
+            <button onclick="fetchData()" id="btn">Submit</button>
+        </div>
+        <div class="container2">
+            <img src="" alt="Pokemon Sprite" id="pokemonsprite" style="display: none;">
+            <h1 id="name2"></h1>
+        </div>
+    </section>
     <script src="./index.js"></script>
+    <!-- <script src="./index2.js" ></script> -->
 </body>
 </html>
