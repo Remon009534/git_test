@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+.form
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.weather
+{
+    display: grid;
+    row-gap: 30px;
+}
+.container
+{
+    display: grid;
+    row-gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.output
+{
+    width: 300px;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 20px;
+    background-color: darkcyan;
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+.feel
+{
+    width: 300px;
+    box-shadow: 2px 2px 10px black;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background-color: darkcyan;
+    color: darkslategray;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+input
+{
+    box-shadow: 2px 2px 10px black;
+    border: none;
+    border-radius: 10px;
+}
