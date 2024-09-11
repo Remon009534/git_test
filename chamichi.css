@@ -1,312 +1,82 @@
 @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-*
+body
 {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+    /* background-color: #202945; */
+    background-color: #fff;
+    font: 100% system-ui;
 }
-.logo span
+h1, p
 {
-    /* color: #e74c3c; */
-    color: #c0392b;
+    /* color: #222; */
+    /* color: whitesmoke; */
+    color: #202945;
 }
-.main
+body.dark-theme
 {
-    /* background-color: #2c3e50; */
-    background-image: url("../logo_2024BG-11-11.webp");
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 500px;
-    font-family: 'Roboto', sans-serif;
+    /* background-color: #121212; */
+    background-color: #152028;
+}
+body.dark-theme h1,
+body.dark-theme p
+{
     font-weight: 900;
+    color: #eee;
 }
-.logo h1
+body.dark-theme a
 {
-    font-size: 30px;
+    color: #809fff;
 }
 header
 {
-    padding: 30px;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.center
-{
-    padding: 100px;
-    text-align: center;
-    display: grid;
-    align-items: center;
-    justify-content: center;
-    row-gap: 50px;
-}
-.center .quote
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.quote h2
-{
-    font-size: 40px;
-    font-family: "Pacifico", cursive;
-    font-weight: 400;
-    font-style: normal;
-    color: whitesmoke;
-}
-.quote span
-{
-    color: #e74c3c;
-}
-.center .button2
-{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 .link ul
 {
     display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    column-gap: 60px;
+    column-gap: 25px;
 }
-ul li
+li
 {
     list-style: none;
 }
 a
 {
     text-decoration: none;
-    color: white;
-    font-size: 16px;
-    font-family: 'Roboto', sans-serif;
     font-weight: 600;
+    color: #13151b;
 }
 a:hover
 {
-    color: #e74c3c;
+    text-decoration: underline;
 }
-#btn
+body.dark-theme button
 {
-    height: 30px;
-    width: 100px;
-    /* background-color: #2c3e50; */
-    background: transparent;
-    border: none;
-    /* color: #ecf0f1; */
-    color: #eab308;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    border-radius: 20px;
+    color: #809fff;
+    border: 2px solid #809fff;
 }
-#btn:hover
-{
-    background-color: #e74c3c;
-    color: #ecf0f1;
-    transition: all 0.5s ease-in;
-}
-#btn2
+button
 {
     height: 40px;
-    width: 120px;
+    width: 100px;
+    border-radius: 20px;
     background: transparent;
-    /* border: 3px solid #e74c3c; */
-    border: none;
-    color: #e74c3c;
-    border-radius: 15px;
+    color: #13151b;
+    border: 2px solid #202945;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
-#btn2:hover
+button:hover 
 {
-    border: none;
-    background-color: #e74c3c;
-    color: white;
-    transition: all 0.5s ease-in;
+    background-color: #202945;
+    color: #809fff;
+    transition: all 0.2s ease-in;
 }
-.drink 
+body.dark-theme button:hover
 {
-    display: grid;
-    row-gap: 100px;
-}
-.location
-{
-    display: grid;
-    /* row-gap: 20px; */
-    background-color: #2f3640;
-}
-.location h1
-{
-    font-size: 40px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    /* padding: 20px; */
-    text-align: center;
-    color: #e74c3c;
-}
-.drink h1
-{
-    color: #e74c3c;
-    padding: 20px;
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 40px;
-}
-.story1
-{
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.para
-{
-    width: 300px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-}
-.story2
-{
-    padding: 30px;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.para2
-{
-    width: 300px;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 400;
-    font-size: 14px;
-}
-.image1 img
-{
-    width: 440px;
-    height: 350px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.image2 img
-{
-    width: 440px;
-    height: 350px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-}
-.location
-{
-    height: 600px;
-}
-.gulshan h3
-{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-}
-.gulshan
-{
-    display: grid;
-    row-gap: 10px;
-}
-.banani
-{
-    display: grid;
-    row-gap: 10px;
-}
-.dhammondi
-{
-    display: grid;
-    row-gap: 10px;
-}
-.dhammondi h3
-{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-}
-.banani h3
-{
-    text-align: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-}
-.location1 img:hover
-{
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-    border-radius: 10px;
-    transition: all 0.5s ease-in;
-
-}
-.image3 img
-{
-    height: 300px;
-    width: 300px;
-}
-.image4 img
-{
-    height: 300px;
-    width: 300px;
-}
-.image5 img
-{
-    height: 300px;
-    width: 300px;
-}
-.location1
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-}
-.copyright
-{
-    background-color: #e74c3c;
-    padding: 20px;
-    display: grid;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Roboto', sans-serif;
-    font-weight: 600;
-    color: white;
-}
-.drinkss
-{
-    display: grid;
-    row-gap: 20px;
-    padding: 20px;
-}
-.drinkss h1
-{
-    font-size: 40px;
-    text-align: center;
-    font-family: 'Pacifico', cursive;
-    font-weight: 400;
-    color: #e74c3c;
-
-}
-.tab-module ul
-{
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-}
-.tab-content p 
-{
-    text-align: center;
-}
-.tab-module a
-{
-    font-size: 25px;
-    color: black;
-}
-[data-tab-content]
-{
-    display: none;
-}
-.active[data-tab-content]
-{
-    display: block;
+    background-color: #809fff;
+    color: #202945;
+    transition: all 0.2s ease-in;
 }
