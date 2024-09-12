@@ -1,42 +1,102 @@
-input
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body
 {
-    background-color: lightgrey;
-    height: 60px;
-}
-.calculator
-{
-    width: 400px;
-    background-color: grey;
     display: grid;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
+    background-color: #4C4F54;
+}
+::selection
+{
+    background-color: #380F17;
+    color: #CD1A30;
+}
+.calculator
+{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* background-color: #FEE7B5; */
+    background-color: #252B2B;
+    row-gap: 5px;
+    /* padding: 150px; */
+    border-radius: 20px;
+    height: 380px;
+    width: 250px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .screen
 {
+    height: 50px;
+    width: 215px;
+    border-radius: 30px;
+    background-color: #FEE7B5;
+    font-family: monospace;
+    font-weight: 600;
+    border: none;
     display: flex;
     align-items: center;
     justify-content: center;
+    font-size: 30px;
+    color: #252B2B;
 }
-
-.buttons
+.button
 {
     display: grid;
     grid-template-columns: 50px 50px 50px 50px;
     grid-template-rows: 50px 50px 50px 50px;
-    column-gap: 10px;
-    row-gap: 10px;
+    column-gap: 5px;
+    row-gap: 5px;
+}
+#equal
+{
+    width: 100px;
+    background-color: #380F17;
+    color: #E53030;
+}
+#equal:hover
+{
+    background-color: #E53030;
+    color: #380F17;
+    transition: all 0.1s ease-in;
 }
 button
 {
-    height: 60px;
-    width: 60px;
+    height: 50px;
+    width: 50px;
     border-radius: 50px;
-    border: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
     color: darkcyan;
-    background-color: darkslategrey;
+    background-color: darkslategray;
+    border: none;
 }
 button:hover
 {
-    background-color: lightslategray;
+    cursor: pointer;
+}
+.item
+{
+    background-color: #CD1A30;
+    color: white;
+}
+.item:hover
+{
+    background-color: #8F0B13;
+    color: white;
+    transition: all 0.1s ease-in;
+}
+.calculate
+{
+    background-color: #E53030;
+    color: white;
+}
+.calculate:hover
+{
+    background-color: #8F0B13;
+    color: white;
+    transition: all 0.1s ease-in;
 }
