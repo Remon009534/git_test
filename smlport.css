@@ -1,10 +1,23 @@
-@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Pacifico&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Modak&family=Pacifico&family=REM:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 *
 {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+body
+{
+    display: grid;
+    row-gap: 20px;
+    background-color: #f4fffd;
+}
+body.dark-theme
+{
+    background-color: #312c51;
 }
 .main
 {
@@ -12,11 +25,11 @@
     align-items: center;
     justify-content: center;
     height: 600px;
-    background-color: #202124;
+    background-color: #f4fffd;
 }
 body.dark-theme .main
 {
-    background-color: #FF7124;
+    background-color: #312c51;
 }
 #image
 {
@@ -34,12 +47,12 @@ body.dark-theme .main
     width: 500px;
     display: grid;
     text-align: center;
-    background-color: #FF7124;
+    background-color: #312c51;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 }
 body.dark-theme #about
 {
-    background-color: #202124;
+    background-color: #48426d;
 }
 #about p
 {
@@ -51,11 +64,11 @@ body.dark-theme #about
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 800;
-    color: #3B4883;
+    color: #f0c38e;
 }
 body.dark-theme #about h1
 {
-    color: #FF7124;
+    color: #312c51;
 }
 #icon
 {
@@ -63,18 +76,19 @@ body.dark-theme #about h1
     align-items: center;
     justify-content: center;
     column-gap: 20px;
+    color: #f1aa9b;
 }
 body.dark-theme #icon
 {
-    color: #FF7124;
+    color: #f0c38e;
 }
 #button
 {
-    background-color: #202124;
+    background-color: #f4fffd;
 }
 body.dark-theme #button
 {
-    background-color: #FF7124;
+    background-color: #312c51;
 }
 #button #btn
 {
@@ -82,26 +96,27 @@ body.dark-theme #button
     width: 100px;
     border-radius: 20px;
     background: transparent;
-    color: #FF7124;
-    border: 2px solid #FF7124;
+    color: #202124;
+    border: 2px solid #202124;
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
 }
 body.dark-theme #button #btn
 {
-    background-color: #202124;
-    border: none;
+    color: #f0c38e;
+    border: 2px solid #f0c38e;
 }
 #button #btn:hover
 {
-    background-color: #FF7124;
-    color: #202124;
+    background-color: #48426d;
+    color: #f0c38e;
+    border: none;
     transition: all 0.2s ease-in;
 }
 body.dark-theme #button #btn:hover 
 {
-    background-color: #3B4883;
-    color: #FF7124;
+    background-color: #f0c38e;
+    color: #312c51;
     transition: all 0.2s ease-in;
 }
 #icon i
@@ -111,17 +126,17 @@ body.dark-theme #button #btn:hover
 }
 #icon i:hover
 {
-    color: #3B4883;
+    color: #f4fffd;
     transition: all 0.2s ease-in-out;
 }
 body.dark-theme #icon i:hover
 {
-    color: #3B4883;
+    color: #312c51;
     transition: all 0.2s ease-in-out;
 }
 body.dark-theme #icon i
 {
-    color: #FF7124;
+    color: #f0c38e;
 }
 #about h1
 {
@@ -132,11 +147,11 @@ body.dark-theme #icon i
     display: grid;
     align-items: center;
     justify-content: center;
-    background-color: #202124;
+    background-color: #f4fffd;
 }
 body.dark-theme .work
 {
-    background-color: #FF7124;
+    background-color: #312c51;
 }
 .work h1
 {
@@ -144,12 +159,12 @@ body.dark-theme .work
     font-family: 'Roboto', sans-serif;
     font-weight: 900;
     text-align: center;
-    color: #FF7124;
+    color: #202124;
     font-size: 40px;
 }
 body.dark-theme .work h1
 {
-    color: #202124;
+    color: #f0c38e;
 }
 .work .container2
 {
@@ -164,8 +179,21 @@ body.dark-theme .work h1
 {
     height: 400px;
     width: 350px;
-    background: transparent;
+    background-color: #48426d;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.item:hover
+{
+    box-shadow: 8px 8px 0px #f0c38e;
+    transition: all 0.2s ease-in-out;
+}
+body.dark-theme .item:hover
+{
+    box-shadow: 8px 8px 0px #48426d;
+}
+body.dark-theme .item
+{
+    background-color: #f0c38e;
 }
 .item #item2
 {
@@ -186,20 +214,20 @@ body.dark-theme .work h1
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    color: #FF7124;
+    color: #f0c38e;
 }
 body.dark-theme #info #name h3
 {
-    color: #202124;
+    color: #312c51;
 }
 .item #info #icon i 
 {
     font-size: 20px;
-    color: #FF7124;
+    color: #f0c38e;
 }
 body.dark-theme .item #info #icon i
 {
-    color: #202124;
+    color: #312c51;
 }
 .item #item3
 {
@@ -214,18 +242,18 @@ body.dark-theme .item #info #icon i
 }
 footer h1
 {
-    color: white;
+    color: #312c51;
 }
 footer
 {
-    background-color: #FF7124;
+    background-color: #312c51;
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
 body.dark-theme footer
 {
-    background-color: #202124;
+    background-color: #f4fffd;
 }
 footer .info
 {
@@ -240,22 +268,22 @@ footer .info h1
 }
 body.dark-theme footer .info h1
 {
-    color: #FF7124;
+    color: #f0c38e;
 }
 footer .info p
 {
     font-family: 'Roboto', sans-serif;
     font-weight: 600;
-    color: white;
+    color: #48426d;
 }
 footer .info #icon2 i
 {
     font-size: 30px;
-    color: #202124;
+    color: #f0c38e;
 }
 body.dark-theme footer .info #icon2 i
 {
-    color: #FF7124;
+    color: #202124;
 }
 footer .info #icon2
 {
