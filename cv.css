@@ -1,0 +1,307 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+::selection
+{
+  background-color: #747bff;
+  color: white;
+}
+header
+{
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  position: sticky;
+  top: 0;
+}
+.test
+{
+  background-color: #242424;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.test a
+{
+  color: white;
+}
+.test .button #btn
+{
+  border-color: white;
+  color: white;
+}
+.test .button #btn:hover
+{
+  background-color: white;
+  color: black;
+  transition: all 0.3s ease-in-out;
+}
+html
+{
+  scroll-behavior: smooth;
+}
+button
+{
+  cursor: pointer;
+}
+.link 
+{
+  display: flex;
+  width: 250px;
+  align-items: center;
+  justify-content: space-around;
+}
+li
+{
+  list-style: none;
+}
+a
+{
+  text-decoration: none;
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
+.button
+{
+  padding-right: 10px;
+}
+.button #btn
+{
+  height: 40px;
+  width: 120px;
+  background: transparent;
+  border: 2px solid black;
+  color: black;
+  border-radius: 20px;
+}
+.button #btn:hover
+{
+  background-color: black;
+  border: none;
+  color: white;
+  transform: scale(1.2);
+  transition: all 0.2s ease-in-out;
+}
+.main
+{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-left: none;
+  border-right: none;
+}
+.main #title
+{
+  width: 500px;
+  display: grid;
+  row-gap: 15px;
+}
+.main #title h1
+{
+  line-height: 50px;
+  font-size: 55px;
+}
+.main #image
+{
+  background-image: url('./assets/vecteezy_people-working-at-home-office-and-typing-laptop-online_13166897.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 500px;
+  width: 500px;
+}
+.main #button #btn
+{
+  height: 50px;
+  width: 200px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0px black;
+  border: 1px solid black;
+  background: transparent;
+  color: black;
+}
+.main #button #btn:hover
+{
+  background-color: black;
+  color: white;
+  box-shadow: none;
+  transition: all 0.2s ease-in-out;
+}
+.cv
+{
+  padding: 50px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+}
+.cv h1
+{
+  font-size: 30px;
+}
+#container
+{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+#item1, #item2, #item3, #item4
+{
+  background-color: #747bff;
+  height: 220px;
+  width: 550px;
+  border-radius: 20px;
+  border: 1px solid #242424;
+  box-shadow: 0px 8px 0px #242424;
+  text-align: center;
+  display: grid;
+}
+#container p
+{
+  font-size: 20px;
+  font-weight: 600;
+}
+#item1
+{
+  background-color: white;
+  color: #242424;
+}
+#item2
+{
+  background-color: #242424;
+  color: white;
+}
+#item3
+{
+  background-color: #213547;
+  color: #747bff;
+}
+#title2
+{
+  background-color: #747bff;
+  color: white;
+  width: 150px;
+  border-radius: 20px;
+  font-size: 20px;
+  height: 40px;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.about
+{
+  height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* border-radius: 20px; */
+}
+.about #about
+{
+  padding: 40px;
+  width: 50%;
+  height: 500px;
+  font-size: 20px;
+  display: grid;
+}
+.about #image2
+{
+  width: 500px;
+  height: 500px;
+  background-image: url('./assets/vecteezy_close-up-of-hands-typing-on-a-keyboard_29846761.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.features
+{
+  padding: 20px;
+  height: 400px;
+  display: grid;
+  column-gap: 20px;
+  width: 400px;
+}
+.features h1
+{
+  font-size: 35px;
+}
+.features #container
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.features #item
+{
+  background-color: #747bff;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 300px;
+  height: 200px;
+  border-radius: 20px;
+  box-shadow: 5px 5px 0px #242424;
+}
+.features #item:hover
+{
+  background-color: #213547;
+  box-shadow: 5px 5px 0px #747bff;
+  color: #747bff;
+  transition: all 0.2s ease-in-out;
+}
+Footer
+{
+  padding: 20px;
+  background-color: #242424;
+  color: white;
+  text-align: center;
+  display: grid;
+  align-items: center;
+  justify-content: center;
+  row-gap: 30px;
+}
+Footer #title
+{
+  display: grid;
+  row-gap: 20px;
+}
+Footer ul
+{
+  display: flex;
+  column-gap: 20px;
+}
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
