@@ -1,12 +1,17 @@
-import { Link } from 'react-router-dom';
+import Header from './pages/Header.jsx'
+import Footer from './pages/Footer.jsx'
+import { Component, useEffect, useState } from 'react';
+import { color, motion } from "framer-motion"
+import { input } from 'framer-motion/client';
+import img1 from './assets/Samira Alcaraz.jpg'
 
-function Home()
+function App()
 {
   window.onscroll = function() {myFunction()};
 
   function myFunction()
   {
-    if(document.documentElement.scrollTop > 50)
+    if(document.documentElement.scrollTop > 100)
     {
       document.querySelector('header').className = "test";
     }
@@ -16,8 +21,8 @@ function Home()
     }
   }
   return (
-      <>
-      <header>
+    <>
+        <header>
         <div className='logo'>
           <h1>QuickCV</h1>
         </div>
@@ -34,7 +39,7 @@ function Home()
           <h1>Make your own CV quicker</h1>
           <p>we understand that applying for jobs can be a daunting process. Our platform is designed to simplify and enhance your CV application experience, providing you with the tools you need to stand out to potential employers.</p>
           <div id='button'>
-            <button id='btn'>Start for free</button>
+            <button id='btn'><a href='header'>Start for free</a></button>
           </div>
         </div>
         <div id='image'></div>
@@ -67,7 +72,9 @@ function Home()
           we believe that a standout CV is the key to unlocking your career potential. Our intuitive platform allows you to design, customize, and generate a professional CV in minutes. With a variety of templates tailored for different industries, you can showcase your skills and experience in a way that resonates with potential employers.
           </h3>
         </div>
-        <div id='image2'></div>
+        <div id='image2'>
+          <img src={img1} alt='' />
+        </div>
       </section>
       <section id='feature' className='features'>
       <div id='title2'><h3>Feature</h3></div>
@@ -98,8 +105,15 @@ function Home()
         </div>
         </div>
       </section>
-      <Footer />
-      </>
+      <footer>
+        <h2>Contact</h2>
+        <ul>
+          <li>instagram</li>
+          <li>github</li>
+          <li>linkdln</li>
+        </ul>
+      </footer>
+    </>
   );
 }
-export default Home;
+export default App;
